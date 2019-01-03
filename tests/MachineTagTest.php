@@ -7,7 +7,7 @@ use App\MachineTag;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-//Todo: figure out how to get tests working from package
+//Todo: figure out how to get tests working from package.
 class MachineTagTest extends TestCase
 {
     use RefreshDatabase;
