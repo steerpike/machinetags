@@ -23,7 +23,7 @@ trait HasMachineTags
     }
     public static function getMachineTagClassName(): string
     {
-        return MachineTag::class;
+        return \Steerpike\MachineTags\MachineTag::class;
     }
     public function machineTags(): MorphToMany
     {
